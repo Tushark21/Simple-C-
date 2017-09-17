@@ -20,11 +20,11 @@ int main(){
 		cout<<a<<" is Maximum";
 	}
 
-	if(b>a && b>c){
+	else if(b>a && b>c){
 		cout<<b<<" is Maximum";
 	}
 
-	if(c>b && c>a){
+	else if(c>b && c>a){
 		cout<<c<<" is Maximum";
 	}
 	return 0;
