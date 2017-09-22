@@ -6,7 +6,7 @@ using namespace std;
 int main(){
 	
 	int a1=0,a2=1,an,n;
-	cout<<"Enter Number of Elements you want to Display (>2)\n";
+	cout<<"Enter Number of Terms you want to Display (>2)\n";
 	cin>>n;
 
 	int i=0;
