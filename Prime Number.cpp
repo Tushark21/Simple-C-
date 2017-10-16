@@ -1,5 +1,6 @@
 #include <iostream>
 #include <conio.h>
+#include <math.h>
 
 using namespace std;
 
@@ -9,7 +10,8 @@ int main(){
 	cout<<"Enter Number\n";
 	cin>>num;
 
-	int counter=num-1,nf=0;
+	int nf=0;
+	int counter=sqrt(num);
 
 	while(counter>1){
 		if(num%counter==0){
