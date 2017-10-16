@@ -7,8 +7,8 @@ int main(){
 	char ch;
 	FILE *f;
 
-	f=fopen("iofile","w");
-	printf("Enter data");
+	f=fopen("iofile.txt","w");
+	printf("Enter data\n");
 
 	while( (ch = getchar()) != EOF) {
     	putc(ch,f);
